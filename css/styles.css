@@ -3,14 +3,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
         margin: 0;
         padding: 0;
         list-style: none;
-        box-sizing: border-box
 }
-
 
 body {
         font-family: "Roboto", sans-serif;
         background-color: rgba(255, 255, 255, 1);        
 }
+
 
 /* Remove the underline for href tag */
 a {
@@ -30,27 +29,11 @@ ul, li {
         margin: 0 auto;
 }
 
-button {
-        color: var(--IRIS, #4D5AE5);
-         /* Button Text */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-         /* 150% */
-        letter-spacing: 0.64px;
-        border-radius: 4px;
-        border: 0px;   
-        padding: 12px 24px;
-        border: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--CLOUD, #F4F4FD);
-}
-
 .buttons { 
-        text-align: center;
-        align-items: center;
-        gap: 24px;
+        display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
 }
 .btn {
         cursor: pointer;
@@ -199,14 +182,23 @@ button {
         color: var(--IRIS, #4D5AE5);
         background-color: transparent;
 }
-/* End of Header section */
+/* End of Header */
 
 /* Main section */
-.service {
+.hero-section{
         background: var(--NAVY-BLUE, #2E2F42);
+        width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
 }
 
-h1 {
+.main-hero {
+        display: inline-flex;
+        align-items: flex-start
+}
+
+.hero {
+        width: 496px;
         color: var(--WHITE, #FFF);
         text-align: center;
         /* Header 1 */
@@ -217,6 +209,40 @@ h1 {
         line-height: 60px;
         /* 107.143% */
         letter-spacing: 1.12px;
+}
+
+button {
+        color: var(--IRIS, #4D5AE5);
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.64px;
+        border-radius: 4px;
+        border: 0px;
+        padding: 12px 24px;
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+        background: var(--CLOUD, #F4F4FD);
+}
+
+.hero-btn {
+        display:flex
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-top: 48px
+}
+
+.hero-btn:hover {
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: var(--WHITE, #FFF);
+        background: var(--OCEAN, #404BBF);
 }
 
 h3 {
