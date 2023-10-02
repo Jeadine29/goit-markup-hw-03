@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 3</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,8 +27,10 @@
         </nav>
         <!-- Contacts- Info -->
        <div class="contact-info">
-           <a class="email" href="email">info@devstudio.com</a></h5>
-           <a class="number" href="number">+11 (000) 111-11-11</a>
+            <ul class="header-contacts">
+                <li class="contacts"><a class="email" href="email">info@devstudio.com</a></li>
+                <li class="contacts"><a class="number" href="number">+11 (000) 111-11-11</a></li>
+            </ul>
        </div>
     </header>
     <main>
@@ -74,28 +76,34 @@
             </div>
         </section>
         <section class="teams">
-            <h2 class="team">Our Team</h2>
+            <h2 class="team">Our Team</h2></div>
             <div class="team-grid">
-                <img src="images/img(1).jpg" alt="Mark Guerrero - Product Designer" width="264">
-                <div>
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
-                </div>
-                <img src="images/img(2).jpg" alt="Tom Ford - Frontend Developer" width="264">
-                <div>
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </div>
-                <img src="images/img(3).jpg" alt="Camila Garcia - Marketing" width="264">
-                <div>
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
-                </div>
-                <img src="images/img(4).jpg" alt="Daniel Wilson - UI Designer" width="264">
-                <div>
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
-                </div>
+                <ul class="team-list">
+                    <li class="team-card1"><img src="images/img(1).jpg" alt="Mark Guerrero - Product Designer" width="264">
+                        <div class="card">
+                            <h3>Mark Guerrero</h3>
+                            <p>Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team-card2"><img src="images/img(2).jpg" alt="Tom Ford - Frontend Developer" width="264">
+                        <div class="card">
+                            <h3>Tom Ford</h3>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team-card3"><img src="images/img(3).jpg" alt="Camila Garcia - Marketing" width="264">
+                        <div class="card">
+                            <h3>Camila Garcia</h3>
+                            <p>Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team-card4"><img src="images/img(4).jpg" alt="Daniel Wilson - UI Designer" width="264">
+                        <div class="card">
+                            <h3>Daniel Wilson</h3>
+                            <p>UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
