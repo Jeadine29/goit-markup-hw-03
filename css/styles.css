@@ -11,9 +11,15 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 body {
         font-family: "Roboto", sans-serif;
-        background-color: rgba(255, 255, 255, 1);   
+        background-color: rgba(255, 255, 255, 1);  
+        margin: 0 auto;
 }
 
+/* container */
+.container {
+        max-width: 1158px;
+        margin: 0 auto;
+}
 
 /* Remove the underline for href tag */
 a {
@@ -21,15 +27,11 @@ a {
 }
 
 /* Remove the bullet for <ul> and <li>*/
-ul, li {
+ul,
+li {
         padding: 0;
         margin: 0;
         display: inline;
-}
-/* container */
-.container {
-        max-width: 1158px;
-        margin: 0 auto;
 }
 
 .buttons { 
@@ -440,17 +442,51 @@ p {
 
 /* Portfolio section */
 
+
+.project {
+        margin-right: 156px;
+        margin-top: 72px;
+        margin-left: 156px;
+        margin-bottom: 120px;
+}
+
 .project-list {
         display: inline-flex;
         padding-bottom: 0px;
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        width: 1128px;
+        height: 420px;
+        flex-shrink: 0;
 }
 
-.row-1 {
-
+.image {
+        display: flex;
+        width: 360px;
+        height: 420px;
+        padding-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+        background: var(--WHITE, #FFF);
 }
+
+.project-card {
+        display: flex;
+                padding: 0px 16px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 8px;
+                align-self: stretch;
+}
+
+
+
+
 
 /* Footer */
 footer {
