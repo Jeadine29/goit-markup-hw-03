@@ -37,17 +37,18 @@ li {
         margin-left: 427px;
         margin-top: 96px;
         margin-right: 427px;
-        padding: 12px 24px;
         display: inline-flex;
         align-items: flex-start;
         text-align: center;
+        cursor: pointer;
 }
 
 
 .btn {
-        cursor: pointer;
-        border-radius: 4px;
-        margin-bottom: 2px 
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
            
 }
 
