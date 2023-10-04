@@ -37,10 +37,10 @@ li {
         margin-left: 427px;
         margin-top: 96px;
         margin-right: 427px;
-        display: flex;
         padding: 12px 24px;
-        justify-content: center;
-        align-items: center;
+        display: inline-flex;
+        align-items: flex-start;
+        text-align: center;
 }
 
 
