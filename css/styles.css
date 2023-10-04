@@ -33,13 +33,15 @@ li {
 }
 
 .buttons { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: inline-flex;
+        align-items: flex-start;
         gap: 24px;
         margin-left: 427px;
         margin-top: 96px;
-        margin-right: 427px;     
+        margin-right: 427px;
+        width: 100%;
+                max-width: 360px;
+     
 }
 
 
