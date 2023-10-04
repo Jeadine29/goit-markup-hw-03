@@ -32,31 +32,21 @@ li {
         display: inline;
 }
 
-.buttons {    
-        gap: 24px;
-        margin-left: 427px;
-        margin-top: 96px;
-        margin-right: 427px;
-        display: inline-flex;
-        align-items: flex-start;
-        text-align: center;
-        cursor: pointer;
-}
-
-
-.btn {
-        display: flex;
-        padding: 12px 24px;
-        justify-content: center;
-        align-items: center;
-           
-}
-
-.btn:hover{
+button {
+        color: var(--IRIS, #4D5AE5);
+        /* Button Text */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.64px;
         border-radius: 4px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        color: var(--WHITE, #FFF);
-        background: var(--OCEAN, #404BBF);
+        border: 0px;
+        padding: 12px 24px;
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+        background: var(--CLOUD, #F4F4FD);    
 }
 
 /* Header */
@@ -226,27 +216,12 @@ h1{
         margin-right: 472px; 
 }
 
-button {
-        color: var(--IRIS, #4D5AE5);
-        /* Button Text */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.64px;
-        border-radius: 4px;
-        border: 0px;
-        padding: 12px 24px;
-        border: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--CLOUD, #F4F4FD);
-        margin-top: 48px
-}
+
 
 .hero-btn {
         cursor: pointer;
         border-radius: 4px;
+        margin-top: 48px
 }
 
 .hero-btn:hover {
@@ -401,11 +376,32 @@ p {
 /* End of Team section */
 
 /* Portfolio */
-
-
 .project {
-        margin: 72px 156px 120px;
-        
+        margin: 72px 156px 120px;   
+}
+
+.buttons {
+        gap: 24px;
+        margin-left: 427px;
+        margin-top: 96px;
+        margin-right: 427px;
+        display: inline-flex;
+        align-items: flex-start;
+        text-align: center;
+        cursor: pointer;
+}
+
+.btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.btn:hover {
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        color: var(--WHITE, #FFF);
+        background: var(--OCEAN, #404BBF);
 }
 
 .project-list {
@@ -420,7 +416,6 @@ p {
         gap: 24px;
         margin-bottom: 48px;
 }
-
 
 .image {
         display: flex;
